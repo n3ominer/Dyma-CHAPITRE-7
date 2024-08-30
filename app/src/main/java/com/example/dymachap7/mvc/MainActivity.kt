@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dymachap7.R
 import com.example.dymachap7.mvc.model.Todo
-import com.example.dymachap7.mvc.model.view.TodosRvAdapter
+import com.example.dymachap7.mvc.view.TodosRvAdapter
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlin.random.Random
 import kotlin.random.nextInt
