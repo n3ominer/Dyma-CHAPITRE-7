@@ -1,4 +1,4 @@
-package com.example.dymachap7.view
+package com.example.dymachap7.mvc.view
 
 import android.view.View
 import android.widget.CheckBox

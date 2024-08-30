@@ -1,10 +1,10 @@
-package com.example.dymachap7.view
+package com.example.dymachap7.mvc.view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dymachap7.R
-import com.example.dymachap7.model.Todo
+import com.example.dymachap7.mvc.model.Todo
 
 class TodosRvAdapter(private val todos: List<Todo>): RecyclerView.Adapter<TodoViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TodoViewHolder {

@@ -1,15 +1,14 @@
-package com.example.dymachap7
+package com.example.dymachap7.mvc
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.dymachap7.model.Todo
-import com.example.dymachap7.view.TodosRvAdapter
+import com.example.dymachap7.R
+import com.example.dymachap7.mvc.model.Todo
+import com.example.dymachap7.mvc.model.view.TodosRvAdapter
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlin.random.Random
 import kotlin.random.nextInt
